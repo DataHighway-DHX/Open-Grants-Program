@@ -1,89 +1,80 @@
 # W3F Open Grant Proposal
 
-> 🌏 This page is also available in [Chinese (中文)](./application-template-cn.md).
->
-> This document will be part of the terms and conditions of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines! Lines starting with a `>` (such as this one) can be removed.
->
-> See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/#pencil-process) on how to submit a proposal.
 
-* **Project Name:** Name of your project (e.g. DuoSwap Module)
-* **Team Name:** Legal name of your team (e.g. Duo)
-* **Payment Address:** BTC or Ethereum (DAI) payment address. We don't accept payments for the program in other currencies at this stage. (e.g. 123mp123...)
+* **Project Name:** DataHighway
+* **Team Name:** DataHighway DAO, MXC Foundation, IPFS team
+* **Payment Address:** 0xC6D7522f7B012b22Bc365C9C43b3DBf13B9aAfF9
 
 
 > ⚠️ *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide name and/or pull request of said grant on the first line of this section.
+DataHighway is the first IoT parachain candiate that builts on Substrate to faciliate the data transfer between different blockchains. The Inter-Chain data marketplace can bring the data from MXC IoT network to IPFS, BTT, AR, ETH, EOS, DOT, and other Polkadot parachains like CRU.
 
 ### Overview
 
-Please provide the following:
 
-* If the name of your project is not descriptive, a tag line (one sentence summary).
-* A brief description of your project.
-* An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-* An indication of why your team is interested in creating this project.
+* DataHighway is a DAO that builts on Substrate to faciliate the Inter-Chain data transfer.DataHighway's community members will ultimately be incentivized to operate a sophisticated IoT parachain based on Polkadot, where they may stake, govern, mine and otherwise participate using the new DHX token and its associated Decentralized Autonomous Organization (DAO), and Inter-Chain Data Market.
+* DataHighway: 100% mineable, 100% Proof of Participation, 100% DAO, 100% you
+* DataHighway is in the first batch of Builder Program
+* We would like to get into W3F grants to attract more data projects to build with us.
 
 ### Project Details
+![Overview](https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-flow-dhx.png)
+**DAO**
+* It will not have a central authority to regulate its monetary base and fiscal policy, instead it will be regulated by the DHX DAO, which will govern future growth strategies.
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+**Mining**
+* It will allow users to be rewarded in return for participation.
 
-* Mockups/designs of any UI components
-* Data models / API specifications of the core functionality
-* An overview of the technology stack to be used
-* Documentation of core components, protocols, architecture, etc. to be deployed
-* PoC/MVP or other relevant prior work or research on the topic
-* What your project is _not_ or will _not_ provide or implement
-  * This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+**Inter-Chain Data Market**
+* The DataHighway's (DHX) Inter-Chain Data Market allows participants to become data providers and to share IoT data from their devices to application developers in exchange for DHX tokens.
+
+**LPWAN**
+* A category of devices that run on low bandwidths (less than 125kHz, 200bps) with low power consumption (less than 2W when transmitting). Typically the technologies involved include LoRaWAN, Sigfox, Weightless, NB-IoT.
+
+**Roaming**
+Devices (LPWAN IoT End Devices) are owned by Data Providers and registered at a "home" Network Server (or Supernode that has purchased a specific Network ID) that belongs to a specific Network Operator (such as the MXC Network).
+
+Data Consumers may request to be granted access to receive packets of data that have been uplinked from a device, which may require purchasing ad-hoc access or a subscription from the DataHighway's Inter-Chain Data Market (see separate "Inter-Chain Data Market" Whitepaper).
+
+![Mining](https://raw.githubusercontent.com/DataHighway-DHX/documentation/master/assets/images/diagram-use-case-hardware-mining.png)
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
-
-* Where and how does your project fit into the ecosystem?
-* Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-* What need(s) does your project meet?
-* Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  * If so, how is your project different?
-  * If not, are there similar projects in related ecosystems?
+* There are a lot of DAPPs platforms on a lot of blockchains, and there are also a lot of Polkadot parachain projects, all of them need the real world IoT data like the temperature, tire pressure, delivery package data to feed into their DAPPs, DataHighway is the decentralized data marketplace for these DAPPs.
+* Target audiences would be the DAPPs that need to use real world IoT data.
+* The data transfer needs between different blockchains like IPFS, BTT, MXC, CRU, AR
+* There are only few IoT parachain candidates in the ecosystem, they are doing Bluetooth sharing or robotics, we are the Inter-Chain data marketplace that can work with them to facilitate the data transactions from and to them.
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-* Name of team leader
-* Names of team members 
+* Luke Schoen https://github.com/ltfschoen
+* Ilya Beregovskiy https://github.com/festelo
+* Christian Groeschel https://github.com/cgroeschel
 
 ### Contact
 
-* **Contact Name:** Full name of the contact person in your team
-* **Contact Email:** Contact email (e.g. john@duo.com)
-* **Website:**
+* **Contact Name:**  Xin Hu
+* **Contact Email:** DAO@datahigway.com
+* **Website:** https://datahighway.com
 
-### Legal Structure
 
-* **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-* **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
-
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+Luke was from Parity team , who worked on a lot of web3 projects since 2014. 
+Ilya is a full stack blockchain developer that proficient in Rust and Flutter.
+Chrisitian is a blockchain DevOps who has more than 15 years experiences.
 
 ### Team Code Repos
+https://github.com/DataHighway-DHX/node
+https://github.com/DataHighway-DHX/apps
 
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
 
-### Team LinkedIn Profiles
-
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
 
 ## Development Status :open_book:
 
